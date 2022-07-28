@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Dog Fan</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <form>
+      <h1>Dog Fan image</h1>
+      <section class="dog">
+        <section>
+          <label>Select any dog breed:</label>
+          <select
+            class="dog-breed"
+            name="breedName"
+            required
+            type="text">
+            <option value="">Select any breed</option>
+          </select>
+        </section>
+
+        <section>
+          <input
+            type="checkbox"
+            id="interval-image"
+            name="autoRefresh"
+            value="1">
+          <label for="interval-image">New image every 2 seconds</label>
+        </section>
+      </section>
+
+      <!-- <section>
+        <button>Click for image</button>
+      </section> -->
+
+      <!-- <section id="output"></section> -->
+      <section>
+        <button>Click for image</button>
+      </section>
+    </form>
+
+    <section id="output"></section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
